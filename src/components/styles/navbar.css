@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap");
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(15, 15, 15);
+  color: rgb(255, 255, 255);
+}
+
+.navBar,
+.logo-img,
+.menu,
+.btn {
+  background-color: rgba(15, 15, 15, 0.842);
+}
+
+.navBar {
+  margin: 0.6rem 2rem;
+  display: inline-flex;
+  align-items: center;
+  font-size: smaller;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  font: 0.8rem "Arial Narrow Bold", sans-serif;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgba(36, 36, 36, 0.8);
+}
+
+.btn-logo,
+.drop-icon,
+.search-icon,
+.bm-icon,
+.ham-icon,
+.pro-icon {
+  border: none;
+  background: none;
+  height: fit-content;
+}
+
+.logo-img {
+  height: 32px;
+}
+
+.menu {
+  order: 2;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.ham {
+  display: flex;
+  margin: 2px 5px;
+}
+
+.drop,
+.drop-cont,
+.btn-txt {
+  background-color: white;
+}
+
+.drop-cont {
+  width: 51px;
+  font-weight: 600;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.all-btn:hover {
+  cursor: pointer;
+}
+
+.btn-txt {
+  height: 100%;
+  width: 100%;
+}
+
+.search-form {
+  order: 3;
+  height: 35px;
+  display: inline-flex;
+  width: 700px;
+  border-radius: 3px;
+  align-items: center;
+  padding: 0rem 0rem 0rem 0.5rem;
+  background-color: white;
+  color: black;
+}
+
+.input-box,
+.search-form {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.all-btn {
+  border-right: 1px solid rgba(148, 148, 148, 0.575);
+}
+
+#input-text {
+  background-color: white;
+  width: 609px;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  outline: none;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  appearance: none;
+  border: none;
+  align-items: center;
+  position: relative;
+}
+
+.pro {
+  order: 4;
+  height: 36px;
+  display: inline-flex;
+}
+
+.pro-icon {
+  height: 14px;
+}
+
+.emt {
+  order: 5;
+  border: 1px solid rgb(78, 78, 78);
+  width: 1px;
+  height: 2rem;
+  margin: 0px 0.5rem;
+}
+
+.watchlist {
+  order: 6;
+}
+
+.sgn{
+  order: 7;
+}
+
+.sgn-btn{
+  height: 35px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover{
+  color: inherit;
+}
+
+@media screen and (min-width: 600px) {
+  .input-box {
+    padding: 0.375em 0px 0.375rem 0.5rem;
+  }
+}

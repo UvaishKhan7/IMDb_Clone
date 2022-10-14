@@ -1,0 +1,57 @@
+.home-container {
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+}
+
+h3::before {
+  background: #f5c518;
+  content: "";
+  margin-left: -0.75rem;
+  align-self: flex-start;
+  position: absolute;
+  height: 2.5rem;
+  width: 4px;
+}
+
+.movie-box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-tile {
+  box-shadow: 3px 3px #f5c51877, -1em 0 0.4em #f5c518d2;
+  text-align: center;
+  margin: 1.8rem;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.movie-tile h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  max-width: 200px;
+}
+
+.movie-tile img {
+  padding: 1rem;
+}
+
+.movie-tile h6 {
+  color: #f5c518;
+}
+
+.movie-tile p {
+  margin-top: 1rem;
+  max-width: 200px;
+  text-align: justify;
+  text-justify: initial;
+}

@@ -1,0 +1,52 @@
+.sm-container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: black;   
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.social-media, .l1, .l2, .amzn, .cr{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: 600;
+}
+
+.sm-li{
+    display: inline-table;
+    margin: 1rem 0.25rem;
+}
+
+.sm-i, .l1-li, .l2-li, .amzn, .cr{
+    background: transparent;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sm-i, .amzn-img, .cr{
+    background: transparent;
+    margin: 1.2rem;
+}
+
+.cr{
+    font-size: smaller;
+    color: rgb(166, 166, 166);
+}
+
+.sm-li:hover{
+    justify-content: center;
+    background-color: rgba(44, 44, 44, 0.699);
+    border-radius: 50%;
+}
+
+.l1-li:hover, .l2-li:hover{
+    text-decoration: underline;
+}

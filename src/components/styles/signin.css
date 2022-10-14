@@ -1,0 +1,121 @@
+body{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.sg-cnt{
+    max-width: 1024px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 0.25rem;
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.options{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0px;
+    text-decoration: none;
+}
+
+.signing-icon{
+    height: 25px;
+    margin-right: 0.5rem;
+}
+
+.heading{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-box, .create{
+    color: black;
+    position: relative;
+    display: block;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 34px;
+    width: 242px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0.8rem;
+}
+
+.btn-box:hover{
+    color: inherit;
+}
+
+.divider-text{
+    line-height: 0.5;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.divider-text span{
+    display: inline-block;
+    position: relative;
+    width: 15px;
+}
+
+.divider-text span::before{
+    right: 100%;
+    margin-right: 15px;
+    border-top: 0.5px solid #555555;
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: 50%;
+    width: 90px;
+}
+
+.divider-text span::after{
+    left: 100%;
+    margin-left: 15px;
+    border-top: 0.5px solid #555555;
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: 50%;
+    width: 90px;
+}
+
+.create{
+    text-align: center;
+    background-color: #E4B721;
+}
+
+#signin-notice{
+    margin-top: 20px;
+}
+
+small{
+    font-size: 70%;
+}
+
+small a{
+    text-decoration: none;
+}
+
+#signin-perks{
+    border-left: 1px solid #dddddd;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    padding-left: 25px;
+    width: 445px;
+}
+
+.heading2{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 80%;
+}
